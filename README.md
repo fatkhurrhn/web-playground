@@ -1,12 +1,38 @@
-# React + Vite
+# LiveCodeEditor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple online code editor with real-time preview. This project allows users to write and edit HTML, CSS, and JavaScript, with instant feedback displayed in a preview panel. Users can also upload local files to edit them directly in the browser.
 
-Currently, two official plugins are available:
+## Features
+- 📝 **Monaco Editor** for a smooth coding experience
+- ⚡ **Live Preview** updates as you type
+- 📂 **File Upload Support** for editing local files
+- 🌙 **Dark Mode** support
+- 📱 **Responsive Design**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation & Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/LiveCodeEditor.git
+   cd LiveCodeEditor
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the project:
+   ```bash
+   npm run dev
+   ```
+4. Open in your browser at `http://localhost:5173/` (or the port specified by Vite).
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- Monaco Editor (@monaco-editor/react)
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contributing
+Pull requests are welcome! If you'd like to improve this project, feel free to fork and submit a PR.
+
+## License
+This project is licensed under the MIT License.
+
