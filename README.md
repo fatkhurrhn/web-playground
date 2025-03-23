@@ -12,7 +12,7 @@ A simple online code editor with real-time preview. This project allows users to
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/LiveCodeEditor.git
+   git clone https://github.com/fatkhurrhn/web-playground.git
    cd LiveCodeEditor
    ```
 2. Install dependencies:
@@ -30,9 +30,4 @@ A simple online code editor with real-time preview. This project allows users to
 - Monaco Editor (@monaco-editor/react)
 - Tailwind CSS
 
-## Contributing
-Pull requests are welcome! If you'd like to improve this project, feel free to fork and submit a PR.
-
-## License
-This project is licensed under the MIT License.
 
